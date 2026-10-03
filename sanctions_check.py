@@ -1,5 +1,8 @@
 """Sanctions screening for compliance pipeline. This stub performs a deterministic
 look-up against mock OFAC and UN sanction lists and returns a structured result.
+
+The function intentionally masks customer identifiers in logs and documents the
+encrypted persistence boundary required for PCI DSS compliance.
 """
 
 from __future__ import annotations
